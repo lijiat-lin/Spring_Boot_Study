@@ -1,0 +1,49 @@
+server:
+  port: 8056
+spring:
+  profiles:
+    active: dev
+---
+server:
+  port: 8057
+spring:
+  profiles: dev
+---
+server:
+  port: 8058
+spring:
+  profiles: prod
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#person:
+#  name: zhangsan
+#  age: 18
+#  boss: true
+#  money: 12.5
+#  map: {key1: val1,key2: val2}
+#  list:
+#    - haha
+#    - huhu
+#    - xixi
+#  dog:
+#    name: haha
+#    age: 12
